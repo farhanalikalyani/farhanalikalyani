@@ -1,267 +1,269 @@
 <div align="center">
 
-<svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A0E27"/>
-      <stop offset="55%" stop-color="#132043"/>
-      <stop offset="100%" stop-color="#0F3D3E"/>
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#5EEAD4"/>
-      <stop offset="100%" stop-color="#A7F3D0"/>
-    </linearGradient>
-  </defs>
-  <rect width="1000" height="220" rx="18" fill="url(#bgGrad)"/>
-  <text x="60" y="70" font-family="Consolas, monospace" font-size="26" fill="#5EEAD4" opacity="0.85">&lt;</text>
-  <text x="80" y="70" font-family="Consolas, monospace" font-size="26" fill="#94A3B8">student</text>
-  <text x="185" y="70" font-family="Consolas, monospace" font-size="26" fill="#38BDF8">who codes</text>
-  <text x="330" y="70" font-family="Consolas, monospace" font-size="26" fill="#5EEAD4" opacity="0.85">/&gt;</text>
-  <text x="60" y="130" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="url(#textGrad)">Farhan Ali</text>
-  <text x="60" y="168" font-family="Consolas, monospace" font-size="17" fill="#CBD5E1">Lahore, Pakistan  ·  Building Future With Farhan  ·  CS Student</text>
-  <circle cx="900" cy="60" r="3" fill="#5EEAD4"/>
-  <circle cx="920" cy="90" r="2" fill="#38BDF8"/>
-  <circle cx="880" cy="110" r="2.5" fill="#A7F3D0"/>
-  <circle cx="940" cy="140" r="3" fill="#5EEAD4"/>
-  <path d="M 850 180 Q 900 160 950 185" stroke="#38BDF8" stroke-width="1.5" fill="none" opacity="0.5"/>
-  <text x="60" y="200" font-family="Consolas, monospace" font-size="13" fill="#5EEAD4" opacity="0.7">$ ./run --mission "make opportunity a matter of ambition, not geography"</text>
-</svg>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A3C6E&height=200&section=header&text=Farhan%20Ali&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Student%20%7C%20Self-Taught%20Developer%20%7C%20EdTech%20Founder&descAlignY=55&descColor=F5A623" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=1A3C6E&center=true&vCenter=true&width=700&lines=Assalam+o+Alaikum!+I'm+Farhan+Ali+%F0%9F%91%8B;Self-Taught+Developer+from+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;Building+Future+With+Farhan+%F0%9F%8E%93;Changing+Education+One+App+at+a+Time+%F0%9F%9A%80;Dream+Big+%7C+Code+Hard+%7C+Never+Give+Up+%F0%9F%94%A5" alt="Typing SVG" />
+</a>
+
+</div>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=farhanalikalyani&label=Profile%20Views&color=1A3C6E&style=for-the-badge)
+&nbsp;
+[![GitHub Followers](https://img.shields.io/github/followers/farhanalikalyani?label=Followers&style=for-the-badge&color=F5A623&logo=github)](https://github.com/farhanalikalyani?tab=followers)
+
+</div>
+
+---
+
+## 🧠 Who Am I?
+
+<img align="right" alt="Coding GIF" width="320" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+
+```javascript
+const farhan = {
+  name:     "Farhan Ali",
+  from:     "Pakistan 🇵🇰",
+  type:     "Self-Taught Developer 💪",
+
+  bigProject: "Future With Farhan (FWF) 🎓",
+  mission:    "Make quality education FREE
+               for every Pakistani student",
+
+  techStack: [
+    "React Native", "Firebase", "JavaScript",
+    "Python", "Flutter", "Node.js",
+    "HTML/CSS", "Tailwind", "AI Integration"
+  ],
+
+  funFacts: [
+    "💡 No CS degree — 100% self-taught",
+    "📱 Built a full EdTech app alone",
+    "🇵🇰 Mission: Help 1M Pakistani students",
+    "☕ Powered by chai & sheer willpower"
+  ],
+
+  currentlyLearning: [
+    "Machine Learning 🤖",
+    "Flutter Advanced 📱",
+    "Cloud Architecture ☁️"
+  ],
+
+  philosophy: "Dream it. Build it. Ship it. 🚀"
+};
+```
+
+<br clear="right"/>
+
+---
+
+## 🚀 My Flagship Project — Future With Farhan
+
+<div align="center">
+
+[![FWF](https://img.shields.io/badge/🎓%20Future%20With%20Farhan-Pakistan's%20%231%20Student%20Platform-1A3C6E?style=for-the-badge)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
+
+</div>
+
+> 🌟 **A complete educational ecosystem for Pakistani students** — exam prep, university guidance, AI mentorship, scholarships, career planning — all in ONE app.
+
+| 📚 Study Features | 🌟 Beyond Studying |
+|---|---|
+| 📝 Notes (MDCAT, ECAT, NTS, CSS) | 🏛️ University Hub (11 sections) |
+| ❓ 10,000+ MCQs with explanations | 🤖 AI Mentor (Claude AI) |
+| 📋 Timed Mock Tests + Analytics | 🚀 Career Roadmaps |
+| 📄 Past Papers Collection | 🎓 Scholarship Finder |
+| 🎬 Video Lectures | 👥 Student Community |
+| 📊 University Merit Calculator | 🔐 Digital Student Locker |
+
+<div align="center">
+
+[![View Project](https://img.shields.io/badge/View%20on%20GitHub-FutureWithFarhan-1A3C6E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
+
+</div>
+
+---
+
+## 🛠️ Tech Stack & Tools I Love
+
+<div align="center">
+
+### 📱 Mobile & Frontend
+<img src="https://skillicons.dev/icons?i=react,js,html,css,flutter,tailwind,bootstrap&perline=7" />
+
+### ⚙️ Backend & Database
+<img src="https://skillicons.dev/icons?i=firebase,nodejs,python,express,mongodb,mysql&perline=6" />
+
+### 🧰 Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,linux,docker,aws,gcp&perline=8" />
 
 </div>
 
 <br/>
 
-<svg width="100%" height="6"><rect width="100%" height="6" fill="url(#g)"/><defs><linearGradient id="g"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#5EEAD4"/></linearGradient></defs></svg>
-
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="25%">🎓<br/><b>CS Student</b><br/><sub>Lahore, Pakistan</sub></td>
-<td align="center" width="25%">🚀<br/><b>Building FWF</b><br/><sub>EdTech for students</sub></td>
-<td align="center" width="25%">🧠<br/><b>4 Languages</b><br/><sub>C++ · Java · JS · Python</sub></td>
-<td align="center" width="25%">🌙<br/><b>Ships at night</b><br/><sub>debugs at 2am, unbothered</sub></td>
-</tr>
-</table>
-</div>
-
-<br/>
-
-## 🌍 The Thing I'm Actually Building This For
-
-<table>
-<tr>
-<td width="70%">
-
-I grew up watching people sharper than me lose ground — not for lack of ability, but because nobody told them a scholarship deadline existed, or which university actually fit them, or what to study to matter in five years. That's not a talent problem. **It's a distribution problem.** And distribution problems are exactly what software is good at solving.
-
-So I'm building **Future With Farhan (FWF)** — an EdTech app that puts exam prep, scholarships, university guidance, career direction, and AI mentoring in one place, for any student in Pakistan, regardless of the city they were born in.
-
-I recently converted the full FWF business case into a formal proposal for **PMYBALS** — the Prime Minister's Youth Business & Agriculture Loan Scheme — because I don't just want to build this. I want to fund it properly and do it right.
-
-</td>
-<td width="30%" align="center">
-
-```
-     ╭──────────╮
-     │  📖  🎯  │
-     │          │
-     │  student │
-     │    ↓     │
-     │  guided  │
-     │    ↓     │
-     │  opport- │
-     │  unity   │
-     ╰──────────╯
-   "close the gap"
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<svg width="100%" height="6"><rect width="100%" height="6" fill="url(#g2)"/><defs><linearGradient id="g2"><stop offset="0%" stop-color="#A7F3D0"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient></defs></svg>
-
-<br/>
-
-## 🪐 Skill Constellation
-
 <div align="center">
 
-<svg width="720" height="360" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#5EEAD4"/>
-      <stop offset="100%" stop-color="#0F3D3E"/>
-    </radialGradient>
-  </defs>
-  <line x1="360" y1="180" x2="150" y2="80"  stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="580" y2="70"  stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="120" y2="260" stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="600" y2="280" stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="360" y2="40"  stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="360" y2="320" stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="90"  y2="180" stroke="#334155" stroke-width="1.5"/>
-  <line x1="360" y1="180" x2="630" y2="180" stroke="#334155" stroke-width="1.5"/>
-
-  <circle cx="360" cy="180" r="34" fill="url(#core)"/>
-  <text x="360" y="185" font-family="Consolas, monospace" font-size="12" fill="#0A0E27" text-anchor="middle" font-weight="bold">YOU</text>
-
-  <circle cx="150" cy="80"  r="26" fill="#132043" stroke="#38BDF8" stroke-width="2"/>
-  <text x="150" y="85" font-family="Consolas, monospace" font-size="11" fill="#38BDF8" text-anchor="middle">C++</text>
-
-  <circle cx="580" cy="70"  r="26" fill="#132043" stroke="#38BDF8" stroke-width="2"/>
-  <text x="580" y="75" font-family="Consolas, monospace" font-size="11" fill="#38BDF8" text-anchor="middle">Java</text>
-
-  <circle cx="120" cy="260" r="26" fill="#132043" stroke="#5EEAD4" stroke-width="2"/>
-  <text x="120" y="265" font-family="Consolas, monospace" font-size="10" fill="#5EEAD4" text-anchor="middle">Python</text>
-
-  <circle cx="600" cy="280" r="26" fill="#132043" stroke="#5EEAD4" stroke-width="2"/>
-  <text x="600" y="285" font-family="Consolas, monospace" font-size="9" fill="#5EEAD4" text-anchor="middle">JS</text>
-
-  <circle cx="360" cy="40"  r="30" fill="#132043" stroke="#A7F3D0" stroke-width="2"/>
-  <text x="360" y="37" font-family="Consolas, monospace" font-size="9" fill="#A7F3D0" text-anchor="middle">React</text>
-  <text x="360" y="48" font-family="Consolas, monospace" font-size="9" fill="#A7F3D0" text-anchor="middle">Native</text>
-
-  <circle cx="360" cy="320" r="28" fill="#132043" stroke="#A7F3D0" stroke-width="2"/>
-  <text x="360" y="325" font-family="Consolas, monospace" font-size="10" fill="#A7F3D0" text-anchor="middle">Expo</text>
-
-  <circle cx="90"  cy="180" r="26" fill="#132043" stroke="#FCD34D" stroke-width="2"/>
-  <text x="90" y="185" font-family="Consolas, monospace" font-size="9" fill="#FCD34D" text-anchor="middle">Firebase</text>
-
-  <circle cx="630" cy="180" r="26" fill="#132043" stroke="#FCD34D" stroke-width="2"/>
-  <text x="630" y="185" font-family="Consolas, monospace" font-size="10" fill="#FCD34D" text-anchor="middle">Qt</text>
-</svg>
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=firebase&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Claude AI](https://img.shields.io/badge/Claude_AI-FF6B35?style=flat-square&logoColor=white)
 
 </div>
 
-<br/>
+---
 
-<svg width="100%" height="6"><rect width="100%" height="6" fill="url(#g3)"/><defs><linearGradient id="g3"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#A7F3D0"/></linearGradient></defs></svg>
-
-<br/>
-
-## 🏗️ Featured Builds
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎓 Future With Farhan
-**Status:** 🟡 mid-rebuild
-
-Dark navy UI system, branded identity, smart search & filter, expandable detail cards, AI mentoring, mock test engine.
-
-`Expo` `React Native` `Firebase`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 AI Study Buddy
-**Status:** 🟢 live
-
-Paste raw notes → get AI-generated summaries, flashcards, and MCQs. Built on the Claude API.
-
-`Expo Router` `Firebase` `Claude API`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤲 Ansarul Khair
-**Status:** 🟢 stable APK shipped
-
-Charity app for a Pakistani trust org. Engineered around real low-end-Android crash constraints, not textbook assumptions.
-
-`React Native` `Firestore` `EAS Build`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 HMS Nexus Pro
-**Status:** 🟢 commercial-grade rewrite
-
-Hospital management system — lab tests, inventory, role-based access, printable billing, Qt Charts, backup/restore.
-
-`C++` `Qt`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<details>
-<summary><b>🗂️ More things I've shipped (click to expand)</b></summary>
-<br/>
-
-- **UniVault** — C++ campus management system with a custom 3D-array data layer; fixed a nasty file I/O bug that was silently corrupting records on reload.
-- **Library Management System** — Java Swing, built to actually demonstrate OOP: inheritance, interfaces, exception handling, file I/O, GUI — not just to check a syllabus box.
-- **Portfolio sites** — dark-theme, animation-driven builds for myself and for friends in my network, including a digital marketer's single-page site with fully optimized embedded assets.
-
-</details>
-
-<br/>
-
-<svg width="100%" height="6"><rect width="100%" height="6" fill="url(#g4)"/><defs><linearGradient id="g4"><stop offset="0%" stop-color="#5EEAD4"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient></defs></svg>
-
-<br/>
-
-## 🧬 Debug Log — bugs that made me better
-
-<table>
-<tr><td>🔴</td><td><code>QBarCategoryAxis::append</code> ambiguous overload in HMS Nexus Pro</td><td>→ compilers don't care how confident you are</td></tr>
-<tr><td>🔴</td><td>UniVault file I/O silently corrupting saved records on reload</td><td>→ the bug is rarely where you're staring</td></tr>
-<tr><td>🔴</td><td>AI Study Buddy API calls failing silently in-browser</td><td>→ test on the real device the app is built for</td></tr>
-<tr><td>🟢</td><td>All three: fixed, shipped, moved on</td><td>→ that's the whole job</td></tr>
-</table>
-
-<br/>
-
-## 📌 Currently
-
-```diff
-+ rebuilding Future With Farhan's entire UI system
-+ studying Discrete Structures — propositional logic, rules of inference
-+ learning system design fundamentals
-+ learning cybersecurity basics
-- not currently accepting excuses from myself
-```
-
-<br/>
-
-<svg width="100%" height="6"><rect width="100%" height="6" fill="url(#g5)"/><defs><linearGradient id="g5"><stop offset="0%" stop-color="#A7F3D0"/><stop offset="100%" stop-color="#5EEAD4"/></linearGradient></defs></svg>
-
-<br/>
+## 📊 GitHub Stats
 
 <div align="center">
 
-### 💬
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=farhanalikalyani&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&title_color=F5A623&icon_color=F5A623&border_color=1A3C6E&bg_color=0d1117&text_color=ffffff&hide_border=false" />
+&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=farhanalikalyani&layout=compact&langs_count=8&theme=tokyonight&title_color=F5A623&border_color=1A3C6E&bg_color=0d1117&text_color=ffffff" />
 
-*"A student's postal code shouldn't decide whether they hear about the scholarship that changes their life. Software can fix that. So I'm fixing it."*
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=farhanalikalyani&theme=tokyonight&ring=F5A623&fire=F5A623&currStreakLabel=F5A623&background=0d1117&border=1A3C6E&sideLabels=ffffff&dates=888888&currStreakNum=F5A623&sideNums=ffffff" alt="GitHub Streak"/>
+
+</div>
+
+> 💡 **Stats will grow as I push more code — watch this space! 🚀**
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=farhanalikalyani&theme=tokyonight&column=4&margin-w=10&margin-h=10&no-bg=false" alt="GitHub Trophies" />
+
+</div>
+
+---
+
+## 🎯 My Big Dreams & Future Plans
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                  🚀 FARHAN ALI'S ROADMAP                      ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  ✅  Phase 1 — BUILD       FWF App — Complete! ✓             ║
+║                                                               ║
+║  🔄  Phase 2 — LAUNCH      Google Play Store 2025            ║
+║                             iOS App Store 2025               ║
+║                             10,000 Beta Users                ║
+║                                                               ║
+║  🔮  Phase 3 — MONETIZE    Premium Subscriptions             ║
+║                             100,000 Pakistani Students       ║
+║                             Partner with Top Academies       ║
+║                             Live Classes Feature             ║
+║                                                               ║
+║  🌟  Phase 4 — SCALE       1,000,000 Students 🎓             ║
+║                             Pakistan's #1 EdTech App 🏆      ║
+║                             Expand to South Asia 🌏          ║
+║                             Raise Investment 💰              ║
+║                                                               ║
+║  💭  The Big Dream → Make quality education FREE             ║
+║                       for EVERY Pakistani student 🇵🇰         ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## 💪 My Self-Taught Journey
+
+<div align="center">
+
+| Stage | What I Learned | Status |
+|-------|---------------|--------|
+| 🌱 **Zero** | No degree, no mentor, no connections | ✅ Started anyway |
+| 📄 **Basics** | HTML, CSS, JavaScript | ✅ Mastered |
+| 📱 **Mobile Dev** | React Native, Expo | ✅ Mastered |
+| 🔥 **Backend** | Firebase, Firestore, Auth, Storage | ✅ Mastered |
+| 🤖 **AI** | Claude AI integration in real product | ✅ Shipped |
+| 🎓 **Full Product** | Complete EdTech platform from scratch | ✅ Done! |
+| 🚀 **Launch** | Google Play Store | 🔄 In Progress |
+| 💰 **Business** | Subscriptions & monetization | 🔮 Coming Soon |
+| 🌍 **Impact** | 1 Million Pakistani students | 💭 The Dream |
+
+</div>
+
+---
+
+## 🌟 What Drives Me
+
+<div align="center">
+
+> *"I started with zero — no CS degree, no mentor, no connections.*
+> *Just a dream, a laptop, chai, and an internet connection.*
+>
+> *If a self-taught student from Pakistan can build a complete*
+> *AI-powered EdTech platform from scratch alone —*
+> *imagine what YOU can achieve."*
+>
+> **— Farhan Ali 🇵🇰**
 
 <br/>
 
-**If you're building something that helps real people — open an issue.**
-**I'll show up with opinions and probably a pull request.**
+```
+💡  Every expert was once a complete beginner
+🔥  Every pro was once an amateur who refused to quit
+🌟  Every legend was once completely unknown
 
-<br/>
+        START → LEARN → BUILD → SHIP → REPEAT
+```
 
-<svg width="100%" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0A0E27"/>
-      <stop offset="100%" stop-color="#0F3D3E"/>
-    </linearGradient>
-  </defs>
-  <rect width="1000" height="120" fill="url(#footGrad)" rx="14"/>
-  <path d="M0,70 C150,110 300,30 500,60 C700,90 850,20 1000,55 L1000,120 L0,120 Z" fill="#132043" opacity="0.7"/>
-  <text x="500" y="65" font-family="Consolas, monospace" font-size="15" fill="#5EEAD4" text-anchor="middle">github.com/relento_coder</text>
-</svg>
+</div>
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-farhanalikalyani%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farhanalikalyani@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-farhanalikalyani-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farhanalikalyani)
+
+[![FWF Project](https://img.shields.io/badge/My%20App-Future%20With%20Farhan-1A3C6E?style=for-the-badge&logo=google-play&logoColor=white)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A3C6E&height=150&section=footer&text=Thanks%20for%20visiting!%20%E2%AD%90%20Star%20my%20repos!&fontSize=20&fontColor=F5A623&animation=twinkling" width="100%"/>
+
+**🇵🇰 Self-Taught | Passionate | Building for Pakistan**
+
+*"Someone is guiding me toward my future." — FWF*
+
+*If my journey inspires you — give a ⭐ and let's connect!*
 
 </div>
