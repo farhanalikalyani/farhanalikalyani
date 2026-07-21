@@ -1,221 +1,407 @@
-<!-- Header -->
-<div align="center">
-  <h1>👋 Assalam o Alaikum! I'm Farhan Ali</h1>
-  <h3>🎓 Self-Taught Developer | EdTech Founder | Student from Pakistan 🇵🇰</h3>
-  
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=farhanalikalyani&label=Profile%20Views&color=1A3C6E&style=flat-square" alt="views"/>
-    <a href="https://github.com/farhanalikalyani?tab=followers">
-      <img src="https://img.shields.io/github/followers/farhanalikalyani?label=Followers&style=flat-square&color=F5A623" alt="followers"/>
-    </a>
-  </p>
+# 🎓 Future With Farhan (FWF)
+### Pakistan's #1 Student Success Platform
 
-  <p>
-    <em>"No degree. No mentor. No shortcuts. Just a dream, a laptop, and chai ☕"</em>
-  </p>
+<div align="center">
+
+![FWF Banner](https://img.shields.io/badge/Future%20With%20Farhan-Student%20Success%20Platform-1A3C6E?style=for-the-badge)
+
+[![React Native](https://img.shields.io/badge/React%20Native-Expo-61DAFB?style=flat-square&logo=react)](https://expo.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase)](https://firebase.google.com)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green?style=flat-square)](https://expo.dev)
+[![License](https://img.shields.io/badge/License-Private-red?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
+
+*"Someone is guiding me toward my future."*
+
 </div>
 
 ---
 
-## 🧠 About Me
+## 📱 About FWF
+
+**Future With Farhan (FWF)** is a comprehensive educational platform built specifically for Pakistani students. It helps students prepare for competitive exams (MDCAT, ECAT, NTS, CSS), discover scholarships, explore universities, get AI-powered guidance, and build successful careers — all in one place.
+
+### 🎯 Who Is This For?
+- FSC / Pre-Medical / Pre-Engineering students
+- MDCAT, ECAT, NTS, CSS, PPSC aspirants
+- University admission seekers
+- Students looking for scholarships
+- Young Pakistanis building their careers
+
+---
+
+## ✨ Features
+
+### 📚 Study & Exam Preparation
+| Feature | Description |
+|---------|-------------|
+| 📝 Notes Library | Browse and download study notes by exam category |
+| ❓ MCQ Practice | Thousands of MCQs with explanations and scoring |
+| 📋 Mock Tests | Timed mock exams with detailed performance analysis |
+| 📄 Past Papers | Previous years' exam papers organized by category |
+| 🎬 Video Lectures | Expert video lessons linked by subject |
+| 📊 Merit Calculator | University-specific aggregate calculators (NUST, FAST, MDCAT, ECAT, UET, LUMS, GIKI, IBA) |
+
+### 🏛️ University Hub (11 Sections)
+| Section | Description |
+|---------|-------------|
+| 🔍 Explorer | Browse and filter Pakistani universities |
+| 📊 Merit Calculator | Calculate admission chances with real formulas |
+| ⚖️ Comparison | Compare up to 3 universities side by side |
+| 📅 Calendar | Important admission dates and deadlines |
+| 🎯 Program Finder | Find universities by desired program |
+| 📝 Merit Lists | 2023 & 2024 closing merit data |
+| 🎓 Scholarships | Financial aid by university |
+| 🏠 Hostel Info | On-campus accommodation details |
+| 💰 Fee Calculator | Estimate total education cost |
+| ⭐ Student Reviews | Real student experiences |
+| 🤖 AI Counselor | AI-powered admission guidance |
+
+### 🚀 Career Hub
+- Career roadmaps for 8+ professions
+- Internship opportunities
+- Step-by-step freelancing guide
+- Interview preparation tips
+- Common interview questions
+
+### 🤖 AI Mentor
+Powered by Claude AI:
+- Explain difficult topics
+- Create personalized study plans
+- Career guidance
+- Scholarship advice
+- CV review assistance
+
+### 📅 Student Planner (6 Tools)
+- ✅ Task Tracker with priorities
+- 🍅 Pomodoro Timer (25/5/15 min)
+- 📅 Exam Countdown
+- 🎓 GPA Calculator
+- 🔥 Study Streak tracker
+- 📆 Weekly Timetable
+
+### 🔐 Student Locker
+Securely store important documents:
+- Certificates & Result Cards
+- CV / Resume
+- CNIC & Fee Challans
+- Other academic documents
+
+### 👥 Community
+- Student discussions by category
+- Like and reply to posts
+- Resource sharing
+- Q&A platform
+
+### 🌟 Opportunity Hub
+- Competitions & Hackathons
+- Conferences & Workshops
+- Volunteer Programs
+- Scholarship listings
+
+### 🎓 Scholarships
+- Government Scholarships
+- Private Scholarships
+- International Scholarships
+- Deadline tracking
+
+---
+
+## 🛠️ Tech Stack
+
+```
+Frontend:     React Native (Expo SDK 54)
+Navigation:   Expo Router (file-based routing)
+Backend:      Firebase (Firestore, Auth, Storage)
+AI:           Claude API (Anthropic)
+Styling:      StyleSheet (Custom Design System)
+Fonts:        Poppins (Regular, Medium, SemiBold, Bold)
+Icons:        Expo Vector Icons (Ionicons)
+Storage:      AsyncStorage (local), Firestore (cloud)
+```
+
+---
+
+## 📁 Project Structure
+
+```
+FutureWithFarhan/
+├── app/
+│   ├── (auth)/
+│   │   ├── login.jsx
+│   │   ├── register.jsx
+│   │   └── forgot-password.jsx
+│   ├── (tabs)/
+│   │   ├── index.jsx          # Home Dashboard
+│   │   ├── notes.jsx          # Study Notes
+│   │   ├── mcqs.jsx           # MCQ Practice
+│   │   ├── mocktests.jsx      # Mock Tests
+│   │   ├── papers.jsx         # Past Papers
+│   │   ├── videos.jsx         # Video Lectures
+│   │   ├── merit.jsx          # Merit Calculator
+│   │   ├── universities.jsx   # University Hub
+│   │   ├── scholarships.jsx   # Scholarships
+│   │   ├── career.jsx         # Career Hub
+│   │   ├── community.jsx      # Community
+│   │   ├── opportunities.jsx  # Opportunity Hub
+│   │   ├── locker.jsx         # Student Locker
+│   │   ├── planner.jsx        # Student Planner
+│   │   ├── mentor.jsx         # AI Mentor
+│   │   ├── notifications.jsx  # Notifications
+│   │   ├── results.jsx        # Test Results
+│   │   ├── bookmarks.jsx      # Saved Items
+│   │   └── profile.jsx        # User Profile
+│   ├── admin/
+│   │   ├── index.jsx          # Admin Dashboard
+│   │   ├── notes.jsx          # Manage Notes
+│   │   ├── papers.jsx         # Manage Papers
+│   │   ├── mocktests.jsx      # Manage MCQs
+│   │   ├── videos.jsx         # Manage Videos
+│   │   ├── scholarships.jsx   # Manage Scholarships
+│   │   ├── notifications.jsx  # Send Notifications
+│   │   ├── universities.jsx   # Manage Universities
+│   │   └── users.jsx          # Manage Users
+│   ├── onboarding.jsx         # Onboarding Slides
+│   ├── index.jsx              # Route Guard
+│   └── _layout.jsx            # Root Layout
+├── components/
+│   ├── ErrorBoundary.jsx
+│   └── ui/
+│       ├── EmptyState.jsx
+│       ├── SkeletonLoader.jsx
+│       ├── Toast.jsx
+│       └── PullToRefresh.jsx
+├── constants/
+│   ├── colors.js
+│   └── fonts.js
+├── context/
+│   ├── AuthContext.jsx
+│   └── ThemeContext.jsx
+├── firebase/
+│   ├── config.js
+│   ├── auth.js
+│   ├── admin.js
+│   ├── admin-check.js
+│   └── bookmarks.js
+├── hooks/
+│   ├── useFirestore.js
+│   └── useAdmin.js
+├── utils/
+│   ├── validation.js
+│   └── formatting.js
+├── app.json
+├── eas.json
+└── package.json
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Expo CLI
+- Firebase account
+- Anthropic API key (for AI Mentor)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/farhanalikalyani/FutureWithFarhan-Web.git
+
+# Navigate to project
+cd FutureWithFarhan-Web
+
+# Install dependencies
+npm install
+```
+
+### Firebase Setup
+
+1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+2. Enable **Authentication** (Email/Password)
+3. Create **Firestore Database**
+4. Enable **Storage**
+5. Copy your config to `firebase/config.js`:
 
 ```javascript
-const farhan = {
-  name        : "Farhan Ali",
-  location    : "Pakistan 🇵🇰",
-  type        : "Self-Taught Developer 💪",
-  bigProject  : "Future With Farhan — FWF 🎓",
-  mission     : "Free quality education for every Pakistani student",
-
-  techStack   : [
-    "React Native", "Firebase", "JavaScript",
-    "Python",  "Flutter", "Node.js",
-    "HTML/CSS", "Figma", "AI Integration"
-  ],
-
-  funFacts    : [
-    "💡 100% self-taught — no CS degree",
-    "📱 Built a complete EdTech app solo",
-    "🇵🇰 Goal: Help 1 Million Pakistani students",
-    "☕ Powered by chai and sheer willpower"
-  ],
-
-  philosophy  : "Dream it. Build it. Ship it. 🚀"
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
 ```
 
----
+### Firestore Security Rules
 
-## 🚀 My Flagship Project — Future With Farhan (FWF)
+Copy the secure rules from `firestore.rules` to your Firebase Console → Firestore → Rules.
 
-> 🌟 **Pakistan's most complete student success platform** — built entirely by a self-taught developer
+### AI Mentor Setup
 
-[![FWF](https://img.shields.io/badge/🎓%20Future%20With%20Farhan-View%20on%20GitHub-1A3C6E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
+Add your Claude API key in `firebase/functions/index.js` (server-side only — never in client code):
 
-| 📚 Study Features | 🌟 Life Features |
-|---|---|
-| 📝 Notes (MDCAT, ECAT, NTS, CSS) | 🏛️ University Hub — 11 sections |
-| ❓ 10,000+ MCQs with explanations | 🤖 AI Mentor (Claude AI) |
-| 📋 Timed Mock Tests + Analytics | 🚀 Career Roadmaps |
-| 📄 Past Papers Collection | 🎓 Scholarship Finder |
-| 🎬 Video Lectures | 👥 Student Community |
-| 📊 Merit Calculator (NUST, FAST, MDCAT, ECAT) | 🔐 Digital Student Locker |
-
-**Tech Used:**
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=Firebase&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Claude AI](https://img.shields.io/badge/Claude_AI-FF6B35?style=flat-square)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-
----
-
-## 🛠️ My Tech Stack
-
-### 📱 Mobile & Frontend
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### ⚙️ Backend & Database
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-
-### 🧰 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=farhanalikalyani&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=farhanalikalyani&layout=compact&langs_count=8&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=farhanalikalyani&theme=tokyonight" alt="streak"/>
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=farhanalikalyani&theme=tokyonight&column=7&margin-w=8" alt="trophies"/>
-</div>
-
----
-
-## 🎯 Big Dreams & Future Plans
-
+```bash
+firebase functions:config:set anthropic.key="YOUR_CLAUDE_API_KEY"
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                  🚀 FARHAN ALI'S ROADMAP                         ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  ✅  Phase 1 — BUILD        FWF App Complete ✓                   ║
-║                             Full features + Firebase + AI        ║
-║                                                                  ║
-║  🔄  Phase 2 — LAUNCH       Google Play Store 2025              ║
-║                             iOS App Store 2025                   ║
-║                             10,000 Beta Users                    ║
-║                                                                  ║
-║  🔮  Phase 3 — MONETIZE     Premium Subscriptions               ║
-║                             100,000 Pakistani Students           ║
-║                             Partner with Top Academies           ║
-║                             Live Classes Feature                 ║
-║                                                                  ║
-║  🌟  Phase 4 — SCALE        1,000,000 Students Helped 🎓         ║
-║                             Pakistan's #1 EdTech App 🏆          ║
-║                             Expand to Bangladesh & Nepal         ║
-║                             Raise Investment & Funding 💰         ║
-║                                                                  ║
-║  💭  The Dream              FREE quality education for           ║
-║                             EVERY Pakistani student 🇵🇰            ║
-╚══════════════════════════════════════════════════════════════════╝
+
+### Running the App
+
+```bash
+# Web
+npx expo start --web
+
+# Android (with Expo Go)
+npx expo start
+# Scan QR code with Expo Go app
+
+# Build APK
+eas build --platform android --profile preview
 ```
 
 ---
 
-## 💪 My Self-Taught Journey
+## 🔐 Security
 
-| Stage | What I Did | Status |
-|-------|-----------|--------|
-| 🌱 **Zero** | Started with no degree, no mentor | ✅ |
-| 📄 **Basics** | HTML, CSS, JavaScript | ✅ |
-| 📱 **Mobile Dev** | React Native + Expo | ✅ |
-| 🔥 **Backend** | Firebase + Firestore + Auth | ✅ |
-| 🤖 **AI** | Claude AI integration | ✅ |
-| 🎓 **Full Product** | Complete EdTech platform built | ✅ |
-| 🚀 **Launch** | Google Play Store | 🔄 In Progress |
-| 💰 **Revenue** | Premium subscriptions | 🔮 Coming Soon |
-| 🌍 **Scale** | 1 Million students | 💭 The Dream |
+- ✅ Firebase Security Rules protect all data
+- ✅ Admin panel protected by server-side role check
+- ✅ Claude API key stored in Firebase Functions (never in client)
+- ✅ Email verification required for new accounts
+- ✅ User data isolated — students can only access their own data
+- ✅ Admin role stored in Firestore with write protection
 
 ---
 
-## 🌟 What Drives Me
-
-> *"I started with zero — no CS degree, no mentor, no money.*
-> *Just a dream, a laptop, and an internet connection.*
->
-> *If a self-taught student from Pakistan can build a*
-> *complete AI-powered EdTech platform solo —*
-> *imagine what YOU can build with the right guidance."*
->
-> **— Farhan Ali 🇵🇰**
+## 🗄️ Firebase Collections
 
 ```
-💡  Every expert was once a complete beginner
-🔥  Every pro was once an amateur who refused to quit
-🌟  Every legend was once completely unknown
-
-        START → LEARN → BUILD → SHIP → REPEAT
+users/          — User profiles and roles
+notes/          — Study notes metadata
+pastPapers/     — Past exam papers
+mcqs/           — MCQ questions and answers
+videos/         — Video lecture links
+scholarships/   — Scholarship listings
+universities/   — University profiles
+notifications/  — Admin announcements
+community/      — Student discussion posts
+locker/         — Student document storage
+testResults/    — Mock test performance data
+bookmarks/      — Saved items per user
 ```
 
 ---
 
-## 📈 Contribution Graph
+## 📊 Merit Calculator Formulas
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=farhanalikalyani&theme=tokyo-night" width="100%"/>
-</div>
-
----
-
-## 📫 Connect With Me
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-farhanalikalyani%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:farhanalikalyani@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-farhanalikalyani-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farhanalikalyani)
-[![FWF](https://img.shields.io/badge/My%20App-Future%20With%20Farhan-1A3C6E?style=for-the-badge)](https://github.com/farhanalikalyani/FutureWithFarhan-Web)
-
-</div>
+| University | Formula |
+|-----------|---------|
+| NUST | NET 80% + Matric 10% + Inter 10% |
+| FAST-NUCES | Entry Test 50% + Inter 40% + Matric 10% |
+| UET / ECAT Unis | ECAT 50% + Inter 40% + Matric 10% |
+| MDCAT Unis | MDCAT 50% + Inter 40% + Matric 10% |
+| GIKI | ECAT/SAT 50% + Inter 40% + Matric 10% |
+| IBA Karachi | IBA Test 50% + Inter 40% + Matric 10% |
+| AKU | AKU Test 50% + Inter 50% |
+| LUMS | Holistic (SAT + Essays + Interview) |
 
 ---
 
+## 👨‍💼 Admin Panel
+
+The admin panel is accessible only to users with `isAdmin: true` in Firestore.
+
+**To make a user admin:**
+1. Go to Firebase Console → Firestore
+2. Find user document in `users` collection
+3. Add field: `isAdmin: true`
+
+**Admin capabilities:**
+- Add/Edit/Delete Notes, Papers, MCQs, Videos
+- Manage Universities and Scholarships
+- Send Notifications to all students
+- View and manage user accounts
+- View platform statistics
+
+---
+
+## 🗺️ Roadmap
+
+### v1.0.0 (Current)
+- [x] Complete authentication system
+- [x] Notes, MCQs, Papers, Videos
+- [x] Mock Tests with Firebase
+- [x] University Hub (11 sections)
+- [x] Merit Calculator
+- [x] AI Mentor
+- [x] Career Hub
+- [x] Community
+- [x] Student Planner
+- [x] Student Locker
+- [x] Admin Panel
+- [x] Secure Firebase Rules
+
+### v1.1.0 (Coming Soon)
+- [ ] Google Authentication
+- [ ] Push Notifications (FCM)
+- [ ] Profile Photo Upload
+- [ ] Resume Builder
+- [ ] Global Search
+
+### v2.0.0 (Future)
+- [ ] Premium Subscription System
+- [ ] Live Mock Tests (all students together)
+- [ ] Leaderboards
+- [ ] Offline Mode
+- [ ] Google Play Store Launch
+- [ ] iOS App Store Launch
+
+---
+
+## 💰 Monetization Plan
+
+**Free Tier** — Core features always free
+
+**Premium (Coming Soon)** — PKR 299/month or PKR 1,999/year
+- Unlimited MCQs & Mock Tests
+- AI Mentor unlimited messages
+- Full Past Papers library
+- Student Locker (50 documents)
+- Offline access
+- Priority support
+
+---
+
+## 🤝 Contributing
+
+This is a private project. For collaboration requests, contact the developer.
+
+---
+
+## 📞 Contact
+
+**Developer:** Farhan Ali
+**Email:** farhanalikalyani@gmail.com
+**GitHub:** [@farhanalikalyani](https://github.com/farhanalikalyani)
+
+---
+
+## 📄 License
+
+This project is **private and proprietary**.
+All rights reserved © 2025 Future With Farhan.
+
+---
+
 <div align="center">
 
-### 🇵🇰 Self-Taught | Passionate | Building for Pakistan
+**Built with ❤️ for Pakistani Students**
 
-*"Someone is guiding me toward my future." — Future With Farhan*
+*"Bohat acha kaam kiya hai. Ab launch karo! 🚀"*
 
-**⭐ If my journey inspires you — give a star and let's connect!**
+⭐ Star this repo if you find it useful!
 
 </div>
